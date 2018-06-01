@@ -1,0 +1,39 @@
+
+body {
+  padding-top: 250px;
+background-color:white;
+background-image: url("agence.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.presentation {
+
+  color: white;
+
+}
+
+.texto {
+
+    color: white;
+    font-size: 30px;
+}
+
+.tete
+{
+  text-align: center;
+}
+
+.button1 {
+
+  padding-right: 5px;
+
+}
+
+.logo {
+
+  font-size: 25px;
+  font-family: Brush Script MT;
+}
