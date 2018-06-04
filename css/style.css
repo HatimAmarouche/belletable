@@ -37,3 +37,13 @@ background-size: cover;
   font-size: 25px;
   font-family: Brush Script MT;
 }
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343A40;
+    color: white;
+
+}

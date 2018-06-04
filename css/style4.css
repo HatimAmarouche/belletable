@@ -2,6 +2,9 @@ body {
   padding-top: 100px;
 }
 
+label {
+  width:110px;
+}
 .logo {
 
   font-size: 25px;
@@ -11,4 +14,30 @@ body {
 
   padding-right: 5px;
 
+}
+
+#DivClignotante {
+  font-family: sans-serif;
+  color: red;
+  font-size: 25px;
+}
+
+font {
+
+font-family:sans-serif;
+color: red;
+font-size: 25px;
+}
+
+.erreurchamp {
+
+color: red;
+font-size: 25px;
+font-family: sans-serif;
+
+}
+
+i {
+
+  color:#007BFF;
 }

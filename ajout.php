@@ -7,14 +7,25 @@ $password = $_POST["password"];
 
 
 $con  = mysqli_connect("localhost","root","","belletable");
-$req = "insert into user
-		values(null,'$nom','$prenom','$mail','$pseudo','$password',0)";
-echo $req;
 
+$req = "insert into user
+			values(null,'$nom','$prenom','$mail','$pseudo','$password',0)";
+	echo $req;
 $resultat = mysqli_query($con,$req);
 echo mysqli_error($con);
 
-header("location:index.html");
+$donnees = mysqli_fetch_assoc($resultat);
+
+if($donnees["pseudo"]==$_POST["pseudo"]) {
+
+	header("location:inscription.php?erreur=1");
+}
+else {
+header("location:home.php");
+
+
+}
+
 
 
 ?>
