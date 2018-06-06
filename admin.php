@@ -11,17 +11,17 @@
 
     <title>Belle Table</title>
 
-    <!-- Bootstrap core CSS -->
+
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+
     <link href="css/style3.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <!-- Navigation -->
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -38,7 +38,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.php">Shop</a>
+              <a class="nav-link" href="shop.php">Magasin</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.php">About</a>
@@ -104,3 +104,5 @@ if(empty($_SESSION["connexion"])) {
 				 </tr>";
 				  $i++;
 		} ?>
+
+</body>

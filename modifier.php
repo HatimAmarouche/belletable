@@ -13,7 +13,7 @@ $resultat =  mysqli_query( $con, $count ) ;
 $row = mysqli_fetch_array($resultat, MYSQLI_ASSOC) ;
 if ( mysqli_num_rows($resultat) != 0 )
      {
-     header("location:inscription.php?erreur=1");
+     header("location:modif.php?erreur=1");
      }
 
 else {
@@ -22,12 +22,7 @@ else {
 	echo $req;
 	$resultat = mysqli_query($con,$req);
 	echo mysqli_error($con);
-	header("location:home.php");
+	header("location:admin.php");
 }
-
-
-
-
-
 
 ?>

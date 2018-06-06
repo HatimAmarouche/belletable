@@ -12,10 +12,10 @@
 
     <title>Belle Table</title>
 
-    <!-- Bootstrap core CSS -->
+
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+
     <link href="css/style4.css" rel="stylesheet">
 
   </head>
@@ -73,10 +73,42 @@ if(empty($_SESSION["connexion"])) {
       </div>
     </nav>
 
-	<center>
-	<h1> Modifier les informations du médecin </h1>
-	<hr width="30%" color="red" />
-	<form action="ajout.php" method="post">
-	Modifiez le nom : <input type="text" name="nom" /><br /><br />
-	Modifiez le prénom : <input type="text" name="prenom" /><br /><br />
-	Modifiez l'adresse mail <input type="email" name="mail" /><br /><br />
+<body>
+  <center>
+    <h1> Modifiez les informations de vos utilisateurs </h1>
+    	<hr width="30%" color="red" />
+    	<form action="modifier.php" method="post">
+    	Modifiez le nom : <input type="text" name="nom" /><br /><br />
+    	Modifiez le prénom : <input type="text" name="prenom" /><br /><br />
+      Modifiez l'adresse mail : <input type="mail" name="mail" /><br /><br />
+      Modifiez le pseudo : <input type="text" name="pseudo" /><br /><br />
+      Modifiez le mot de passe : <input type="password" name="password" /> <br /> <br />
+
+
+	  <button type="submit" class="btn btn-primary">Envoyez</button> <br/> <br />
+    <?php
+    if(isset($_GET["erreur"]))
+    { ?>
+
+      <div id="DivClignotante" style="visibility:visible;">Ce pseudo existe déjà</div>
+        <p>
+            <script type="text/javascript">
+            var clignotement = function(){
+            if (document.getElementById('DivClignotante').style.visibility=='visible')
+              {
+                document.getElementById('DivClignotante').style.visibility='hidden';
+              }
+            else
+              {
+                document.getElementById('DivClignotante').style.visibility='visible';
+              }
+  };
+
+          periode = setInterval(clignotement, 100);
+          </script></p>
+
+    <?php } ?>
+
+  <center>
+
+</body>

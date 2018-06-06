@@ -12,10 +12,10 @@
 
     <title>Belle Table</title>
 
-    <!-- Bootstrap core CSS -->
+
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+
     <link href="css/style.css" rel="stylesheet">
 
   </head>
@@ -38,7 +38,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.php">Shop</a>
+              <a class="nav-link" href="shop.php">Magasin</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.php">About</a>
@@ -83,9 +83,9 @@ if(empty($_SESSION["connexion"])) {
             </h1>
 
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="texto text-faded mb-5">Nous sommes une entreprise de préstation de services dans l'évènementiel. Dressez votre "Belle Table" avec nous !</p>
-            <a class="btn btn-primary btn-xl" href="index3.html">Apprenez-en plus sur nous !</a>
+              <div class="col-lg-8 mx-auto">
+                <p class="texto text-faded mb-5">Nous sommes une entreprise de préstation de services dans l'évènementiel. Dressez votre "Belle Table" avec nous !</p>
+                  <a class="btn btn-primary btn-xl" href="index3.html">Apprenez-en plus sur nous !</a>
           </div>
         </div>
       </div>
@@ -95,43 +95,41 @@ if(empty($_SESSION["connexion"])) {
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<!-- Footer -->
+</body>
+
 <footer class="page-footer font-small unique-color-dark mt-4">
 
   <div style="background-color: #007BFF;">
     <div class="container">
 
-      <!-- Grid row-->
+
       <div class="row py-4 d-flex align-items-center">
 
-        <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
-        </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0"></h6>
+        </div>
+
         <div class="col-md-6 col-lg-7 text-center text-md-right">
 
         </div>
-        <!-- Grid column -->
 
       </div>
-      <!-- Grid row-->
+
 
     </div>
   </div>
 
-  <!-- Footer Links -->
+
   <div class="container text-center text-md-left mt-5">
 
-    <!-- Grid row -->
+
     <div class="row mt-3">
 
-      <!-- Grid column -->
+
       <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
 
-        <!-- Content -->
+
         <h6 class="text-uppercase font-weight-bold">Mentions légales</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
 
@@ -139,71 +137,49 @@ if(empty($_SESSION["connexion"])) {
 
 
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-        <!-- Links -->
+
         <h6 class="text-uppercase font-weight-bold">Products</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p><strong>Propriétaire</strong> : Belle Table – SARL – 75014<br />
         <strong>Créateur</strong>  : <a href="http://belletable.fr/">Amarouche Hatim</a><br />
         <strong>Responsable publication</strong> : Amarouche Hatim – htm_tremblay@hotmail.fr<br />
-        Le responsable publication est une personne physique ou une personne morale.<br />
+
 
 
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-        <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <h6 class="text-uppercase font-weight-bold">UTILISATION</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <strong>Webmaster</strong> : Amarouche Hatim – hatim.professionnel@gmail.com<br />
           <strong>Hébergeur</strong> : Hostpapa – 92400<br />
           Crédits : Andy Kadiambu<br />
         </p>
-
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-        <!-- Links -->
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+          <i class="fa fa-home mr-3"></i> Paris, 75014, France</p>
         <p>
-          <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+          <i class="fa fa-envelope mr-3"></i> services@belletable.com</p>
         <p>
           <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
         <p>
           <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
-
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row -->
-
   </div>
-  <!-- Footer Links -->
 
-  <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
     Copyright &copy; Amarouche Hatim & Andy Kadiambu
   </div>
-  <!-- Copyright -->
 
 </footer>
-<!-- Footer -->
-
-  </body>
 
 </html>
